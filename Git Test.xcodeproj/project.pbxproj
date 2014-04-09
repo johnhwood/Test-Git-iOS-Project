@@ -21,6 +21,7 @@
 		FE404BF018F4FB25006C44A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE404BD218F4FB25006C44A7 /* UIKit.framework */; };
 		FE404BF818F4FB25006C44A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE404BF618F4FB25006C44A7 /* InfoPlist.strings */; };
 		FE404BFA18F4FB25006C44A7 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE404BF918F4FB25006C44A7 /* Git_TestTests.m */; };
+		FE404C0518F4FDB9006C44A7 /* JHWTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FE404C0418F4FDB9006C44A7 /* JHWTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FE404BF518F4FB25006C44A7 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		FE404BF718F4FB25006C44A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FE404BF918F4FB25006C44A7 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		FE404C0318F4FDB9006C44A7 /* JHWTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHWTest.h; sourceTree = "<group>"; };
+		FE404C0418F4FDB9006C44A7 /* JHWTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHWTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				FE404BDE18F4FB25006C44A7 /* JHWAppDelegate.m */,
 				FE404BE018F4FB25006C44A7 /* Main.storyboard */,
 				FE404BE318F4FB25006C44A7 /* JHWViewController.h */,
+				FE404C0318F4FDB9006C44A7 /* JHWTest.h */,
+				FE404C0418F4FDB9006C44A7 /* JHWTest.m */,
 				FE404BE418F4FB25006C44A7 /* JHWViewController.m */,
 				FE404BE618F4FB25006C44A7 /* Images.xcassets */,
 				FE404BD518F4FB25006C44A7 /* Supporting Files */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE404BDF18F4FB25006C44A7 /* JHWAppDelegate.m in Sources */,
+				FE404C0518F4FDB9006C44A7 /* JHWTest.m in Sources */,
 				FE404BDB18F4FB25006C44A7 /* main.m in Sources */,
 				FE404BE518F4FB25006C44A7 /* JHWViewController.m in Sources */,
 			);
